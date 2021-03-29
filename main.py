@@ -22,6 +22,8 @@ custom_csl_fname = "custom.csl"
 csl = None
 
 st.title("Academic Word Doc Exporter")
+st.write("Author: [Shuyi Wang](https://twitter.com/wshuyi)")
+
 cite_style = st.radio("Cite Style:", ("GBT7714-2015-number", "APA", "other"))
 if cite_style == "GBT7714-2015-number":
     csl = "china-national-standard-gb-t-7714-2015-numeric.csl"

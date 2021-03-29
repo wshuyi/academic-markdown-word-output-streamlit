@@ -1,3 +1,2 @@
 pandoc
 pandoc-citeproc
-citeproc

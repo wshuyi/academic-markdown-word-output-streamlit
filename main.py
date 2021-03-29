@@ -52,7 +52,7 @@ if csl:
         
         # generate docx file
         cmd = f"""
-                        pandoc -s -F pandoc-crossref --citeproc \
+                        pandoc -s --citeproc \
                             --bibliography '{better_bibtex_json_fname}' \
                                 --csl '{csl}' \
                                                             --wrap=none \
